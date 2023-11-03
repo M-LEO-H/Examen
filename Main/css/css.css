@@ -1,13 +1,13 @@
-body{
+html, body{
     font-family: 'Courier New', Courier, monospace;
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
 
 }
 
-
 h1{
     font-size: 4vw;
+    padding: 0%;
 }
 
 h2{
@@ -26,7 +26,6 @@ nav{
     padding: 1rem;
     position: fixed; /* Fixed so nav bar follow site */
     width: 100%;
-
 }
 
 .nav-text {
@@ -41,8 +40,10 @@ nav{
 }
 
 .nav-text-active {
+    text-decoration: none;
     background-color: white;
     color:#3a3a3a;
+    padding: 1rem;
 }
 
 
@@ -52,7 +53,7 @@ nav{
 .grid{
     display: grid;
     gap: 20px;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: auto auto;
     grid-template-rows: auto;
     margin: 0%;
     padding: 0%;
