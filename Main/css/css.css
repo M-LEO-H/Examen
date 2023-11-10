@@ -39,6 +39,7 @@ nav{
 }
 
 .nav-text-active {
+    font-size: 1.5vw;
     text-decoration: underline; /* Line under active page*/
     background-color: white;
     color:#3a3a3a;
@@ -53,7 +54,6 @@ nav{
 
 .hero-img{
 max-width: 100%;
-
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
