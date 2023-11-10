@@ -19,30 +19,31 @@ p{
 }
 
 nav{
-    background-color: #3a3a3a;
+    /*background-color: #3a3a3a;*/
     padding: 1rem;
-    position: fixed; /* Fixed so nav bar follow site */
+   /* position: fixed; /* Fixed so nav bar follow site */
     width: 100%;
+    overflow: hidden;
 }
 
 .nav-text {
     text-decoration: none;
-    color: white;
+    color: rgb(20, 19, 19);
     padding: 1rem;
 }
 
 .nav-text:hover {
-    background-color: white;
+   background-color: white;
     color:#3a3a3a;
+    text-decoration: underline;/*Line under page the user hovers*/
 }
 
 .nav-text-active {
-    text-decoration: none;
+    text-decoration: underline; /* Line under active page*/
     background-color: white;
     color:#3a3a3a;
     padding: 1rem;
 }
-
 
 
 .content{
@@ -52,12 +53,11 @@ nav{
 
 .hero-img{
 max-width: 100%;
-height: 50%;
+
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 position: relative;
-padding-top: 3.4vw;
 }
 
 .grid{
