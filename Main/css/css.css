@@ -15,7 +15,7 @@ h2{
     font-size: 3vw;
 }
 p{
-    font-size: 1vm;
+    font-size: 1.5vw;
 }
 
 nav{
@@ -72,5 +72,8 @@ nav{
 
 
 .img{
-    width: 100%;
+    width: 90%;
+    margin: 13%;
+    height: 90%;
+    
 }
