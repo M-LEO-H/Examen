@@ -8,7 +8,7 @@ body{
 h1{
     font-size: 3vw;
     margin-top: 0;
-    padding-top: 15%;
+    padding-top: 5%;
 }
 
 h2{
@@ -16,6 +16,7 @@ h2{
 }
 p{
     font-size: 1.5vw;
+    line-height: 1.5;
 }
 
 nav{
@@ -52,12 +53,12 @@ nav{
     margin-left: 20%;
 }
 
-.hero-img{
+.hero-img{ /*https://www.w3schools.com/howto/howto_css_hero_image.asp*/
 max-width: 100%;
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
-position: relative;
+position: relative; 
 }
 
 .grid{
@@ -84,4 +85,12 @@ position: relative;
     margin: 13%;
     height: 90%;
   
+}
+figure{
+   max-width: 100%; 
+   padding: 0;
+   margin: 0;
+}
+figcaption{
+    margin-left: 2%;
 }
