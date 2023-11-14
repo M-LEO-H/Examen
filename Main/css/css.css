@@ -1,5 +1,5 @@
 body{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial, Helvetica, sans-serif;
     padding: 0px;
     margin: 0px;
 
@@ -83,5 +83,5 @@ position: relative;
     width: 90%;
     margin: 13%;
     height: 90%;
-    
+  
 }
