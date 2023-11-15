@@ -23,9 +23,9 @@ p{
 nav{
     background-color: #eb000000;
     padding: 1rem;
-   /* position: fixed; /* Fixed so nav bar follow site */
     width: 100%;
     overflow: hidden;
+    transition: 0.3s;
 }
 
 .nav-text {
