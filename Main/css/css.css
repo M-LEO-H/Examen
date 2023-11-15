@@ -12,6 +12,7 @@ h1{
 
 h2{
     font-size: 2vw;
+    padding-top: 6%;
 }
 p{
     font-size: 1.5vw;
@@ -20,10 +21,10 @@ p{
 
 nav{
     background-color: #eb000000;
-    padding: 2vw;
-   /* position: fixed; /* Fixed so nav bar follow site */
+    padding: 1rem;
     width: 100%;
     overflow: hidden;
+    transition: 0.3s;
 }
 
 .nav-text {
@@ -92,4 +93,18 @@ figure{
 
 figcaption{
     margin-left: 2%;
+}
+.image{
+width: 70%;
+height: 40%;
+padding-top: 3%;
+padding-bottom: 3%;
+}
+
+footer{
+    background-color: aqua;
+    width: 100%;
+    padding: 2%;
+    margin: 0%;
+    position: absolute;
 }
