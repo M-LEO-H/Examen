@@ -101,6 +101,7 @@ padding-top: 3%;
 padding-bottom: 3%;
 }
 
+<<<<<<< Updated upstream
 footer{
     background-color: aqua;
     width: 100%;
@@ -108,3 +109,28 @@ footer{
     margin: 0%;
     position: absolute;
 }
+=======
+footer {
+    bottom: 0;
+    padding: 3px;
+    background-color: rgb(69, 69, 69);
+    color:rgb(255, 255, 255);
+    
+    
+
+    
+  }
+
+  .footer-text{
+    margin-left: 10%;
+   
+  }
+  .footer-link{
+    text-decoration: underline;
+    color: white;
+    padding: 10%;
+
+  }
+  
+  
+>>>>>>> Stashed changes
