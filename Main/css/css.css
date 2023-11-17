@@ -8,12 +8,10 @@ body{
 h1{
     font-size: 3vw;
     margin-top: 0;
-    padding-top: 5%;
 }
 
 h2{
     font-size: 2vw;
-    padding-top: 6%;
 }
 p{
     font-size: 1.5vw;
@@ -28,9 +26,10 @@ nav{
     padding: 1rem;
     width: 100%;
     overflow: hidden;
-}
+    }
 
 .nav-text {
+    font-size: 1.5vw;
     text-decoration: none;
     color: rgb(20, 19, 19);
     padding: 1rem;
@@ -75,31 +74,33 @@ position: relative;
 
 .grid-item{
     color: black;
-    padding: 10%;
+    padding-top: 15%;
+    margin-right: 10%;
 }
 .grid-text{
-    row-gap: 0;
     margin: 10%;
 }
 
 
 .img{
-    width: 90%;
-    margin: 13%;
-    height: 90%;
+    width: 100%;
+    height: auto;
   
 }
 figure{
    max-width: 100%; 
    padding: 0;
    margin: 0;
+   padding-bottom: 5%;
 }
 figcaption{
     margin-left: 2%;
 }
+
 .image{
 width: 100%;
 height: 40%;
 padding-top: 3%;
 padding-bottom: 3%;
 }
+
