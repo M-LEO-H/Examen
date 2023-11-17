@@ -14,13 +14,19 @@ h2{
     font-size: 2vw;
     padding-top: 6%;
 }
+
 p{
-    font-size: 1.5vw;
+    font-size: 1.25vw;
+    line-height: 1.5;
+}
+li{
+    font-size: 1.25vw;
     line-height: 1.5;
 }
 
 nav{
     background-color: #eb000000;
+    text-align: left;
     padding: 1rem;
     width: 100%;
     overflow: hidden;
@@ -28,7 +34,7 @@ nav{
 }
 
 .nav-text {
-    font-size: 3vw;
+    font-size: 2vw;
     text-decoration: none;
     color: rgb(20, 19, 19);
     padding: 2vw;
@@ -41,10 +47,11 @@ nav{
 }
 
 .nav-text-active {
-    font-size: 3vw;
+    font-size: 2vw;
     text-decoration: underline; /* Line under active page*/
     background-color: white;
     color:#3a3a3a;
+    padding: 2vw;
 }
 
 
@@ -79,7 +86,6 @@ nav{
     padding: 5%;
 }
 
-
 .img{   
     max-width: 100%;
     height: auto;
@@ -101,24 +107,11 @@ padding-top: 3%;
 padding-bottom: 3%;
 }
 
-<<<<<<< Updated upstream
-footer{
-    background-color: aqua;
-    width: 100%;
-    padding: 2%;
-    margin: 0%;
-    position: absolute;
-}
-=======
 footer {
     bottom: 0;
     padding: 3px;
-    background-color: rgb(69, 69, 69);
-    color:rgb(255, 255, 255);
-    
-    
-
-    
+    background-color: rgb(168, 168, 168);
+    color:rgb(20, 20, 20);
   }
 
   .footer-text{
@@ -127,10 +120,7 @@ footer {
   }
   .footer-link{
     text-decoration: underline;
-    color: white;
-    padding: 10%;
+    color: rgb(8, 8, 8);
 
   }
-  
-  
->>>>>>> Stashed changes
+
