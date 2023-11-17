@@ -19,7 +19,10 @@ p{
     font-size: 1.5vw;
     line-height: 1.5;
 }
-
+ul{
+    font-size: 1.5vw;
+    line-height: 1.5;
+}
 nav{
     background-color: #eb000000;
     padding: 1rem;
