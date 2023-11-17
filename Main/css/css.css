@@ -8,25 +8,20 @@ body{
 h1{
     font-size: 3vw;
     margin-top: 0;
+    padding-top: 5%;
 }
 
 h2{
     font-size: 2vw;
     padding-top: 6%;
 }
-
 p{
-    font-size: 1.25vw;
-    line-height: 1.5;
-}
-li{
-    font-size: 1.25vw;
+    font-size: 1.5vw;
     line-height: 1.5;
 }
 
 nav{
     background-color: #eb000000;
-    text-align: left;
     padding: 1rem;
     width: 100%;
     overflow: hidden;
@@ -34,10 +29,9 @@ nav{
 }
 
 .nav-text {
-    font-size: 2vw;
     text-decoration: none;
     color: rgb(20, 19, 19);
-    padding: 2vw;
+    padding: 1rem;
 }
 
 .nav-text:hover {
@@ -47,11 +41,11 @@ nav{
 }
 
 .nav-text-active {
-    font-size: 2vw;
+    font-size: 1.5vw;
     text-decoration: underline; /* Line under active page*/
     background-color: white;
     color:#3a3a3a;
-    padding: 2vw;
+    padding: 1rem;
 }
 
 
@@ -61,12 +55,11 @@ nav{
 }
 
 .hero-img{ /*https://www.w3schools.com/howto/howto_css_hero_image.asp*/
-    max-width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-
+max-width: 100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative; 
 }
 
 .grid{
@@ -78,25 +71,27 @@ nav{
     padding: 0%;
 }
 
+.grid-item{
+    color: black;
+    padding: 10%;
+}
 .grid-text{
     row-gap: 0;
-    margin-left: 10%;
-}
-.grid-item{
-    padding: 5%;
+    margin: 10%;
 }
 
-.img{   
-    max-width: 100%;
-    height: auto;
+
+.img{
+    width: 90%;
+    margin: 13%;
+    height: 90%;
   
 }
 figure{
    max-width: 100%; 
-   padding-bottom: 5%;
+   padding: 0;
    margin: 0;
 }
-
 figcaption{
     margin-left: 2%;
 }
@@ -106,21 +101,3 @@ height: 40%;
 padding-top: 3%;
 padding-bottom: 3%;
 }
-
-footer {
-    bottom: 0;
-    padding: 3px;
-    background-color: rgb(168, 168, 168);
-    color:rgb(20, 20, 20);
-  }
-
-  .footer-text{
-    margin-left: 10%;
-   
-  }
-  .footer-link{
-    text-decoration: underline;
-    color: rgb(8, 8, 8);
-
-  }
-
