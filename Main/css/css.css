@@ -107,4 +107,9 @@ height: 40%;
 padding-top: 3%;
 padding-bottom: 3%;
 }
-
+footer{
+  position: absolute;
+  background-color: aqua;
+  width: 100%;
+  gap: 0;
+}
