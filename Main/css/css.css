@@ -111,7 +111,22 @@ padding-bottom: 3%;
 }
 footer{
   position: absolute;
-  background-color: aqua;
+  
   width: 100%;
-  gap: 0;
+  gap: 0; 
+  background-color: rgb(69, 69, 69);
+  color:rgb(255, 255, 255);
+  
+  
+
+  
+}
+
+.footer-text{
+  margin-left: 3%;
+ 
+}
+.footer-link{
+  text-decoration: underline;
+  color: white;
 }
