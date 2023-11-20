@@ -85,7 +85,6 @@ height: auto;
 .img{
     width: 100%;
     height: auto;
-  
 }
 
 figure{
@@ -99,16 +98,13 @@ figcaption{
     margin-left: 2%;
     font-size: 1vw;
 }
+
 footer{
-  position: absolute;
-  
+  bottom: 0%;
   width: 100%;
   gap: 0; 
   background-color: rgb(69, 69, 69);
   color:rgb(255, 255, 255);
-  
-  
-
   
 }
 
