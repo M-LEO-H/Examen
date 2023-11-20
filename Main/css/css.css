@@ -57,9 +57,9 @@ nav{
 }
 
 .hero-img{ /*https://www.w3schools.com/howto/howto_css_hero_image.asp*/
-max-width: 100%;
-width: 100%;
-height: auto;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
 }
 /*Grid endrer størrelser etter elementet*/
 .grid{
