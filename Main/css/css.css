@@ -99,19 +99,3 @@ figcaption{
     margin-left: 2%;
     font-size: 1vw;
 }
-footer{
-  position: absolute;
-
-  width: 100%;
-  background-color: rgb(69, 69, 69);
-  color:rgb(255, 255, 255);
-}
-
-.footer-text{
-  margin-left: 3%;
- 
-}
-.footer-link{
-  text-decoration: underline;
-  color: white;
-}
