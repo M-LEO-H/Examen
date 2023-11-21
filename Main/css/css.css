@@ -61,11 +61,12 @@ nav{
     width: 100%;
     height: auto;
 }
-/*Grid endrer størrelser etter elementet*/
+
+
 .grid{
     display: grid;
     gap: 20px;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto; /*Grid-template endrer størrelser etter elementet*/
     grid-template-rows: auto;
     margin: 0%;
     padding: 0%;
